@@ -1,5 +1,5 @@
 bool containsDuplicate(int* nums, int numsSize){
-    int i, j, tmp;
+    int i, j,  tmp;
     for (i = 1; i < numsSize; i++) {
         tmp = nums[i];
         for (j = i - 1; j >= 0; j--) {
