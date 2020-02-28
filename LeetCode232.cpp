@@ -1,5 +1,5 @@
 typedef struct MyStack {
-    int *data;
+    int *data; 
     int top;
 } MyStack;
 
