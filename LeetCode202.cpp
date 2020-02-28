@@ -1,5 +1,5 @@
 int get_next(int n) {
-    int temp = 0;
+    int  temp = 0;
     while (n) {
         temp += (n % 10) * (n % 10);
  	n /= 10;
