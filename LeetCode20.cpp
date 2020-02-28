@@ -2,6 +2,7 @@ bool isValid(char * s){
     int len = strlen(s);
     char *stack = (char *)malloc(sizeof(char) * len);
     int top = -1, flag = 1;
+
     while (s[0]) {
         switch (s[0]) {
             case '(':
