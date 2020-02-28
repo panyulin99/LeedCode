@@ -1,5 +1,6 @@
 class Solution {
     public:
+
     int lengthOfLongestSubstring(string s) {
         int left = 0;
 	int mlen = 0;
