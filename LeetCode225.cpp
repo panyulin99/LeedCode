@@ -1,5 +1,5 @@
 typedef struct MyQueue{
-    int *data;
+    int *data; 
     int head, tail;
     int size, cnt;
 } MyQueue;
