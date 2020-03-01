@@ -1,4 +1,4 @@
-/*
+/**
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
@@ -7,22 +7,26 @@
  * };
  */
 
-
-bool isBalanced(struct TreeNode* root){
-    if(dfs(root)==-1) return false;
-    return true ;
+/* int Depth(struct TreeNode *root) {
+     if (root == NULL) return 0;
+     int l = Depth(root->left), r = Depth(root->right);
+     return (l > r ? l : r) + 1;
 }
 
-int dfs(struct TreeNode*root) {
-    int a,b;
-    if(root==NULL) return 0;
-    a=dfs(root->left);
-    if(a ==-1) return -1;
-    b = dfs(root->right);
-    if(b==-1) return -1;
-    if(a-b>1||b-a>1) {
-      return -1;
-    }
-    return 1+ (a>b?a:b);
+ bool isBalanced(struct TreeNode* root){
+     if (root == NULL) return true;
+     int l = Depth(root->left), r = Depth(root->right);
+       if (abs(l - r) > 1) return false;
+     return isBalanced(root->left) && isBalanced(root->right);
+ }*/
+
+int Depth(struct TreeNode *root) {
+    if (root == NULL) return 0;
+    int l = Depth(root->left), r= Depth(root->right);
+    if (l == -2 || r == -2 || abs(l - r) > 1) return -2;
+    return (l > r ? l : r) + 1;
 }
 
+bool isBalanced(struct TreeNode* root) {
+    return Depth(root) >= 0;
+}
