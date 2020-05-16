@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Depth	LeetCode110.cpp	/^int Depth(struct TreeNode *root) {$/;"	f
+MyQueue	LeetCode225.cpp	/^typedef struct MyQueue{$/;"	s	file:
+MyQueue	LeetCode225.cpp	/^} MyQueue;$/;"	t	typeref:struct:MyQueue	file:
+MyQueue	LeetCode232.cpp	/^} MyQueue;$/;"	t	typeref:struct:__anon2	file:
+MyQueueCreate	LeetCode225.cpp	/^MyQueue *MyQueueCreate(int size) {$/;"	f
+MyQueueEmpty	LeetCode225.cpp	/^int MyQueueEmpty(MyQueue *obj) {$/;"	f
+MyQueueFree	LeetCode225.cpp	/^void MyQueueFree(MyQueue *obj) {$/;"	f
+MyQueueFront	LeetCode225.cpp	/^int MyQueueFront(MyQueue *obj) {$/;"	f
+MyQueuePop	LeetCode225.cpp	/^int MyQueuePop(MyQueue *obj) {$/;"	f
+MyQueuePush	LeetCode225.cpp	/^void MyQueuePush(MyQueue *obj, int x) {$/;"	f
+MyStack	LeetCode225.cpp	/^} MyStack;$/;"	t	typeref:struct:__anon1	file:
+MyStack	LeetCode232.cpp	/^typedef struct MyStack {$/;"	s	file:
+MyStack	LeetCode232.cpp	/^} MyStack;$/;"	t	typeref:struct:MyStack	file:
+MyStackCreate	LeetCode232.cpp	/^MyStack *MyStackCreate(int size) {$/;"	f
+MyStackEmpty	LeetCode232.cpp	/^int MyStackEmpty(MyStack *obj) {$/;"	f
+MyStackFree	LeetCode232.cpp	/^void MyStackFree(MyStack *obj) {$/;"	f
+MyStackPop	LeetCode232.cpp	/^int MyStackPop(MyStack *obj) {$/;"	f
+MyStackPush	LeetCode232.cpp	/^void MyStackPush(MyStack *obj, int x) {$/;"	f
+MyStackTop	LeetCode232.cpp	/^int MyStackTop(MyStack *obj) {$/;"	f
+Solution	LeetCode3.cpp	/^class Solution {$/;"	c	file:
+binaryTreePaths	LeetCode257.cpp	/^char ** binaryTreePaths(struct TreeNode* root, int* returnSize){$/;"	f
+cnt	LeetCode225.cpp	/^    int size, cnt;$/;"	m	struct:MyQueue	file:
+containsDuplicate	LeetCode142.cpp	/^bool containsDuplicate(int* nums, int numsSize){$/;"	f
+containsDuplicate	LeetCode217.cpp	/^bool containsDuplicate(int* nums, int numsSize){$/;"	f
+data	LeetCode225.cpp	/^    int *data; $/;"	m	struct:MyQueue	file:
+data	LeetCode232.cpp	/^    int *data; $/;"	m	struct:MyStack	file:
+deleteDuplicates	LeetCode83.cpp	/^struct ListNode* deleteDuplicates(struct ListNode* head){$/;"	f
+deleteNode	LeetCode237.cpp	/^void deleteNode(struct ListNode* node) {$/;"	f
+findDuplicate	LeetCode287.cpp	/^int findDuplicate(int* nums, int numsSize){$/;"	f
+getCnt	LeetCode102.cpp	/^void getCnt(struct TreeNode *root, int k, int *cnt) {$/;"	f
+getCnt	LeetCode107.cpp	/^void getCnt(struct TreeNode *root, int k, int *cnt) {$/;"	f
+getDepth	LeetCode102.cpp	/^int getDepth(struct TreeNode *root) {$/;"	f
+getDepth	LeetCode107.cpp	/^int getDepth(struct TreeNode *root) {$/;"	f
+getIntersectionNode	LeetCode160.cpp	/^struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {$/;"	f
+getPathCnt	LeetCode257.cpp	/^int getPathCnt(struct TreeNode *root) {$/;"	f
+getResult	LeetCode102.cpp	/^void getResult(struct TreeNode *root, int k, int *cnt, int **ret) {$/;"	f
+getResult	LeetCode107.cpp	/^void getResult(struct TreeNode *root, int k, int *cnt, int **ret) {$/;"	f
+getResult	LeetCode257.cpp	/^int getResult(struct TreeNode *root, int len, int k, char **ret, char *buff) {$/;"	f
+get_length	LeetCode234.cpp	/^int get_length(struct ListNode *head) {$/;"	f
+get_next	LeetCode202.cpp	/^int get_next(int n) {$/;"	f
+hasCycle	LeetCode141.cpp	/^bool hasCycle(struct ListNode *head) {$/;"	f
+hasPathSum	LeetCode112.cpp	/^bool hasPathSum(struct TreeNode* root, int sum){$/;"	f
+head	LeetCode225.cpp	/^    int head, tail;$/;"	m	struct:MyQueue	file:
+invertTree	LeetCode226.cpp	/^struct TreeNode* invertTree(struct TreeNode* root){$/;"	f
+isBalanced	LeetCode110.cpp	/^bool isBalanced(struct TreeNode* root) {$/;"	f
+isHappy	LeetCode202.cpp	/^bool isHappy(int n){$/;"	f
+isPalindrome	LeetCode234.cpp	/^bool isPalindrome(struct ListNode* head){$/;"	f
+isPalindrome	LeetCode9.cpp	/^bool isPalindrome(int x){$/;"	f
+isSameTree	LeetCode100.cpp	/^bool isSameTree(struct TreeNode* p, struct TreeNode* q){$/;"	f
+isSameTree	LeetCode101.cpp	/^bool isSameTree(struct TreeNode* p, struct TreeNode* q) {$/;"	f
+isSymmetric	LeetCode101.cpp	/^bool isSymmetric(struct TreeNode* root) {$/;"	f
+isValid	LeetCode20.cpp	/^bool isValid(char * s){$/;"	f
+lengthOfLongestSubstring	LeetCode3.cpp	/^    int lengthOfLongestSubstring(string s) {$/;"	f	class:Solution
+levelOrder	LeetCode102.cpp	/^int** levelOrder(struct TreeNode* root, int* returnSize, int** returnColumnSizes){$/;"	f
+levelOrderBottom	LeetCode107.cpp	/^int** levelOrderBottom(struct TreeNode* root, int* returnSize, int** returnColumnSizes){$/;"	f
+maxDepth	LeetCode104.cpp	/^int maxDepth(struct TreeNode* root){$/;"	f
+merge	LeetCode88.cpp	/^void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n){$/;"	f
+mergeTwoLists	LeetCode21.cpp	/^struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){$/;"	f
+minDepth	LeetCode111.cpp	/^int minDepth(struct TreeNode* root){$/;"	f
+myQueueCreate	LeetCode232.cpp	/^MyQueue* myQueueCreate() {$/;"	f
+myQueueEmpty	LeetCode232.cpp	/^bool myQueueEmpty(MyQueue* obj) {$/;"	f
+myQueueFree	LeetCode232.cpp	/^void myQueueFree(MyQueue* obj) {$/;"	f
+myQueuePeek	LeetCode232.cpp	/^int myQueuePeek(MyQueue* obj) {$/;"	f
+myQueuePop	LeetCode232.cpp	/^int myQueuePop(MyQueue* obj) {$/;"	f
+myQueuePush	LeetCode232.cpp	/^void myQueuePush(MyQueue* obj, int x) {$/;"	f
+myStackCreate	LeetCode225.cpp	/^MyStack* myStackCreate() {$/;"	f
+myStackEmpty	LeetCode225.cpp	/^bool myStackEmpty(MyStack* obj) {$/;"	f
+myStackFree	LeetCode225.cpp	/^void myStackFree(MyStack* obj) {$/;"	f
+myStackPop	LeetCode225.cpp	/^int myStackPop(MyStack* obj) {$/;"	f
+myStackPush	LeetCode225.cpp	/^void myStackPush(MyStack* obj, int x) {$/;"	f
+myStackTop	LeetCode225.cpp	/^int myStackTop(MyStack* obj) {$/;"	f
+q1	LeetCode225.cpp	/^    MyQueue *q1, *q2;$/;"	m	struct:__anon1	file:
+q2	LeetCode225.cpp	/^    MyQueue *q1, *q2;$/;"	m	struct:__anon1	file:
+removeElements	LeetCode203.cpp	/^struct ListNode* removeElements(struct ListNode* head, int val){$/;"	f
+removeNthFromEnd	LeetCode19.cpp	/^struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {$/;"	f
+reverse	LeetCode234.cpp	/^struct ListNode* reverse(struct ListNode *head, int n) {$/;"	f
+reverse	LeetCode7.cpp	/^int reverse(int x){$/;"	f
+reverseList	LeetCode206.cpp	/^struct ListNode* reverseList(struct ListNode* head) {$/;"	f
+s1	LeetCode232.cpp	/^    MyStack *s1, *s2;$/;"	m	struct:__anon2	file:
+s2	LeetCode232.cpp	/^    MyStack *s1, *s2;$/;"	m	struct:__anon2	file:
+searchInsert	LeetCode35.cpp	/^int searchInsert(int* nums, int numsSize, int target){$/;"	f
+size	LeetCode225.cpp	/^    int size, cnt;$/;"	m	struct:MyQueue	file:
+swap	LeetCode160.cpp	8;"	d	file:
+swapPairs	LeetCode24.cpp	/^struct ListNode* swapPairs(struct ListNode* head){$/;"	f
+tail	LeetCode225.cpp	/^    int head, tail;$/;"	m	struct:MyQueue	file:
+top	LeetCode232.cpp	/^    int top;$/;"	m	struct:MyStack	file:
+twoSum	LeetCode1.cpp	/^int* twoSum(int* nums, int numsSize, int target, int* returnSize){$/;"	f
